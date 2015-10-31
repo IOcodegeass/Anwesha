@@ -71,7 +71,8 @@ public class EventDetails extends AppCompatActivity implements View.OnClickListe
         ad.setIcon(icon);
         ad.show();
     }
-
+    // FIXME
+    // setReminder is not working because the intent has been issued but not called
     public void setReminder(View v)
     {
         AlarmManager am = (AlarmManager) getSystemService(ALARM_SERVICE);
